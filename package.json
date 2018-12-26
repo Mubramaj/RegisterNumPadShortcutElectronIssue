@@ -1,0 +1,12 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "4.0.0"
+  }
+}
