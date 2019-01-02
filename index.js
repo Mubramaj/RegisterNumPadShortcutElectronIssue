@@ -29,7 +29,7 @@ function createWindow() {
 // Some APIs can only be used after this event occurs.
 app.on('ready', () => {
   createWindow();
-  globalShortcut.register("num0", () => {
+  globalShortcut.register('Ctrl+num0', () => {
     console.log('num 0 registered');
   });
 });
