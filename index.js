@@ -32,6 +32,10 @@ app.on('ready', () => {
   globalShortcut.register('Ctrl+num0', () => {
     console.log('num 0 registered');
   });
+
+  globalShortcut.register('A', () => {
+    console.log('A registered');
+  });
 });
 
 // Quit when all windows are closed.
